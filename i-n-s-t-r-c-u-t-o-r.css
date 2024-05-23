@@ -1,0 +1,301 @@
+.frame-child13,
+.iconhome1 {
+  position: relative;
+  border-radius: var(--br-6xl);
+}
+.frame-child13 {
+  height: 67px;
+  width: 69px;
+  background-color: var(--color-darkred);
+  display: none;
+}
+.iconhome1 {
+  height: 42px;
+  width: 50px;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkred);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-4xs) var(--padding-xs)
+    var(--padding-3xs);
+}
+.frame-child14,
+.frame-child15 {
+  height: 403px;
+  width: 578px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  display: none;
+  max-width: 100%;
+}
+.frame-child15 {
+  height: 362px;
+  width: 493px;
+}
+.illustration-3d-style-characte-icon1 {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  transform: scale(1.055);
+}
+.wrapper-illustration-3d-style-1 {
+  height: 345px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector-parent3 {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-24xl) var(--padding-8xs)
+    var(--padding-26xl);
+  z-index: 2;
+}
+.frame-child16,
+.vector-parent2,
+.vector-parent3 {
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+}
+.vector-parent2 {
+  align-self: stretch;
+  height: 403px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-22xl) var(--padding-2xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frame-child16 {
+  width: 578px;
+  height: 648px;
+  position: relative;
+  display: none;
+}
+.frame-child19,
+.search1 {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child19 {
+  height: 83px;
+  width: 509px;
+  display: none;
+}
+.search1 {
+  height: 80px;
+  width: 427px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-rethink-sans);
+  color: var(--color-snow);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame-parent5,
+.vector-parent4,
+.vector-parent5 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vector-parent5 {
+  cursor: pointer;
+  border: 0 solid var(--color-darkred);
+  padding: var(--padding-10xs) var(--padding-13xl) 0;
+  background-color: var(--color-darkred);
+  width: 509px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 1;
+}
+.vector-parent5:hover {
+  background-color: var(--color-crimson);
+  border: 5px solid var(--color-crimson);
+  box-sizing: border-box;
+}
+.frame-parent5,
+.vector-parent4 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vector-parent4 {
+  align-self: stretch;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-snow);
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+  padding: 156px var(--padding-6xl) var(--padding-20xl);
+  gap: 11px;
+  margin-top: -147px;
+}
+.frame-parent5 {
+  width: 578px;
+}
+.schedules-inner,
+.schedules2 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.schedules-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 80px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-rethink-sans);
+}
+.schedules2 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #fcf6f5 51.15%, #969292);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-109xl) var(--padding-161xl);
+  gap: var(--gap-4xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .vector-parent4 {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .schedules-inner {
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+  .schedules2 {
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .vector-parent3 {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .room-number-or-section-parent {
+    gap: var(--gap-4xl);
+  }
+  .semester-parent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .vector-parent2 {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .room-number-or1,
+  .search1,
+  .semester1 {
+    font-size: var(--font-size-lgi);
+  }
+  .schedules2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+.inputbox input{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #000000;
+}
+.inputbox ion-icon{
+  position: absolute;
+  right: 8px;
+  color: #ff0303;
+  font-size: 1.2em;
+  top: 20px;
+}
+
+h1{
+  font-size: 2em;
+  color: #c70c0c;
+  text-align: center;
+}
+.inputbox{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #dd0505;
+}
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translate(-50%);
+  color:#e90f0f;
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s;
+}
+
+
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #e70404;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  align-items: center;
+}
+.vector-parent4{
+  border: 5px solid rgb(5, 4, 4);
+}
